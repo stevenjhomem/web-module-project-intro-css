@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	text-align:center;
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+header{
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items:stretch;
+  padding:5%;
+}
+
+.buttons a{
+  display: flex;
+  align-items: center;
+  text-decoration:none;
+  font-size: 20px;
+  height: 50px;
+  width: 140px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color:white;
+  text-align:center;
+  justify-content:center;
+}
+
+.PLV-Button{
+  background-color:#FF764E;
+}
+
+.LAP-Button{
+  background-color:#5ED3EB;
+}
+
+.GI-Button{
+  background-color:#FFCD69;
+}
+
+.header-first-container{
+	display:flex;
+	justify-content: center;
+	padding: 0% 1%;
+}
+
+.header-image{
+	height: 350px;
+	width: 350px;
+	border-radius: 1000px;
+	padding: 1%;
+}
+
+.header-information-container{
+	margin: 2%;
+	font-size: 20px;
+}
+
+.header-information-container h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 60px;
+	text-align:center;
+	padding: 2% 0%;
+}
+
+.tag-line2{
+	text-align:center;
+	padding: 5% 25%;
+}
+.middle-container{
+	padding:1%;
+}
+.site-history{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color:#DDB9A3;
+	padding: 1% 2%;
+	color:white;
+	letter-spacing: 2px;;
+}
+
+.fire-img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	height: 150px;
+	width: 150px;
+}
+
+.fire-safety{
+	padding: 1% 33% 5% 33%;
+}
+
+.entrance-fee{
+	padding: 1% 33% 5% 33%;
+}
+
+.rv-img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 150px;
+	width: 150px;
+}
+
+
+.footer-image-container{
+  display: block;
+  height: 300px;
+  width:100%;
+  background-image: url(assets/footer_img.jpg);
+  background-size: cover;
+}
+
+footer{
+  background-color:#F9E7DC;
+}
